@@ -1,6 +1,7 @@
 ---
-url: "https://codeabilitypodcast.github.io/about/"
-
+layout: default
+title: About
+permalink: /about/
 ---
 
 More about CodeAbility coming soon...
