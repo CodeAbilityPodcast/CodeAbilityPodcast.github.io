@@ -4,7 +4,7 @@ url: "https://codeabilitypodcast.github.io"
 baseurl: ""
 
 title: CodeAbility Podcast
-description: Amplifying the voices of people with disabilities in tech
+description: 🎙️ Amplifying the voices of people with disabilities in tech
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
 - jekyll-remote-theme 
