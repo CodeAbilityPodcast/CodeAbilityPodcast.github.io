@@ -76,6 +76,40 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Header Menu Styles */
+.main-menu {
+  background-color: #272921; /* Dark background for the menu */
+  padding: 10px 0;
+}
+
+.main-menu ul {
+  display: flex;
+  justify-content: center; /* Center the menu */
+  list-style: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu li {
+  margin: 0 15px; /* Space between menu items */
+}
+
+.main-menu a {
+  font-family: 'PT Sans', sans-serif; /* Use body font */
+  font-size: 1rem;
+  color: #FFFFFF; /* White text */
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.main-menu a:hover {
+  background-color: #9ACA3C; /* Green hover effect */
+  color: #272921; /* Dark text on hover */
+}
+
+
 /* Buttons */
 button {
   font-family: 'PT Sans', sans-serif;
