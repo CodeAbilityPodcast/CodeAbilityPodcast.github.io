@@ -7,20 +7,25 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
 
-{% seo %}
+    {% seo %}
   </head>
 
   <body>
 
     <header>
-        <a id="a-title" href="{{ '/' | relative_url }}">
-          <img src="{{ '/assets/images/CodeAbilityExpandedLogo_Color.png' | relative_url }}" alt="CodeAbility Logo" style="max-width: 200px; height: auto;">
+      <div class="container header-content">
+        <!-- Logo -->
+        <a id="a-logo" href="{{ '/' | relative_url }}">
+          <img src="{{ '/assets/images/CodeAbilityExpandedLogo_Color.png' | relative_url }}" alt="CodeAbility Logo">
         </a>
-      <div class="container">
-        <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+
+        <!-- Title and Description -->
+        <div id="a-title-container">
+          <a id="a-title" href="{{ '/' | relative_url }}">
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          </a>
+          <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        </div>
       </div>
     </header>
 
