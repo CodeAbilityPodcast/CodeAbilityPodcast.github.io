@@ -1,0 +1,98 @@
+---
+---
+
+@import "{{ site.theme }}";
+/* Brand Colors */
+:root {
+  --primary-green: #9ACA3C;
+  --primary-blue: #00AEEF;
+  --dark-gray: #272921;
+  --white: #FFFFFF;
+}
+
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  color: var(--dark-gray);
+  background-color: var(--white);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Mono', monospace;
+  font-weight: bold;
+  color: var(--primary-green);
+}
+
+/* Subheadings */
+.subheading {
+  font-family: 'PT Mono', monospace;
+  font-weight: bold;
+  color: var(--primary-blue);
+}
+
+/* Links */
+a {
+  color: var(--primary-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-green);
+  text-decoration: underline;
+}
+
+/* Buttons */
+button {
+  font-family: 'PT Sans', sans-serif;
+  background-color: var(--primary-green);
+  color: var(--white);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--primary-blue);
+}
+
+/* Additional Utility Classes */
+.bg-green {
+  background-color: var(--primary-green);
+}
+
+.bg-blue {
+  background-color: var(--primary-blue);
+}
+
+.text-dark {
+  color: var(--dark-gray);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+/* Example Card */
+.card {
+  border: 1px solid var(--dark-gray);
+  border-radius: 10px;
+  padding: 20px;
+  background-color: var(--white);
+  color: var(--dark-gray);
+}
+
+.card-heading {
+  font-family: 'PT Mono', monospace;
+  font-weight: bold;
+  color: var(--primary-blue);
+}
+
+.card-body {
+  font-family: 'PT Sans', sans-serif;
+  color: var(--dark-gray);
+}
