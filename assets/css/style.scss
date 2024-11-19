@@ -84,7 +84,7 @@ a:hover {
 
 .main-menu ul {
   display: flex;
-  justify-content: center; /* Center the menu */
+  justify-content: flex-start; /* Left aligned header */
   list-style: none; /* Remove bullet points */
   margin: 0;
   padding: 0;
@@ -105,7 +105,7 @@ a:hover {
 }
 
 .main-menu a:hover {
-  background-color: #9ACA3C; /* Green hover effect */
+  background-color: var(--primary-blue); /* Blue hover effect */
   color: #272921; /* Dark text on hover */
 }
 
