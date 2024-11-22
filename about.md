@@ -39,7 +39,7 @@ This podcast is proudly supported by the **NSF Broadening Participation in Compu
 We’d love to hear from you! Whether you have feedback, ideas for topics, or suggestions for guests, feel free to reach out. Let’s work together to create a tech community that values inclusion and innovation.
 
 📱 Follow us on [Twitter](https://twitter.com/CodeAbilityPod), [Instagram](https://www.instagram.com/codeabilitypodcast/), and [TikTok](https://www.tiktok.com/@codeabilitypodcast).  
-🌐 Explore more: [CodeAbilityPodcast.com](http://codeabilitypodcast.com/)
+🌐 Explore more: [CodeAbilityPodcast.github.io](https://codeabilitypodcast.github.io/)
 
 ---
 
