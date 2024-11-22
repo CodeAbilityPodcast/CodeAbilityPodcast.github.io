@@ -10,6 +10,8 @@ permalink: /
 
 At CodeAbility, we bring you inspiring stories, expert insights, and practical advice from individuals with disabilities who are shaping the future of technology. Hosted by **Dr. Meredith Moore**, each episode dives deep into the intersections of accessibility, equity, and innovation in computing.
 
+![CodeAbility Podcast Logo](/assets/images/CodeAbilityExpandedLogo_GrayBG.png)
+
 ---
 
 ## **Why CodeAbility?**
