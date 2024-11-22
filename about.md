@@ -25,8 +25,8 @@ Whether you're a student, professional, or ally, CodeAbility offers engaging con
 
 ## **Supported by AccessComputing**
 
-This podcast is proudly supported by the **NSF Broadening Participation in Computing Alliance AccessComputing**. Through this initiative, we aim to increase the participation of people with disabilities in computing fields and build a more equitable future in technology.  
-**NSF Grant No.: [Insert Grant Number Here]**
+This podcast is proudly supported by the **NSF Broadening Participation in Computing Alliance [AccessComputing](https://www.washington.edu/accesscomputing/)**. Through this initiative, we aim to increase the participation of people with disabilities in computing fields and build a more equitable future in technology.  
+**NSF Grant No.: [Minigrant 2022-05]**
 
 ---
 
