@@ -8,8 +8,6 @@ permalink: /about/
 
 Welcome to **CodeAbility**, the podcast dedicated to amplifying the voices of people with disabilities in the tech industry. Our mission is to explore the intersection of accessibility, inclusion, and innovation, providing practical advice and real-life stories that inspire change in computing and beyond.
 
-![CodeAbility Podcast Logo](https://github.com/CodeAbilityPodcast/CodeAbilityPodcast.github.io/blob/main/assets/images/CodeAbilityExpandedLogo_GrayBG.png)
-
 ---
 
 ## **Our Mission**
