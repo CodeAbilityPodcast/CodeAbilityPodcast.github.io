@@ -11,7 +11,7 @@ We’d love to hear from you! Whether you have feedback, questions, guest sugges
 ---
 
 ## **Email Us**
-📧 **Email**: [your-email@example.com](mailto:your-email@example.com)  
+📧 **Email**: [info@codeabilitypodcast.com](mailto:info@codeabilitypodcast.com)  
 Feel free to reach out with inquiries, suggestions, or collaboration opportunities.
 
 ---
