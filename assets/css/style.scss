@@ -90,8 +90,37 @@ a:hover {
   margin: 0;
   padding: 0;
 }
+/* Main Menu Styling */
+.main-menu {
+  display: flex;
+  justify-content: space-between; /* Space between menu links and icons */
+  align-items: center;
+  padding: 10px 20px; /* Adjust padding as needed */
+}
 
-/* Social Icons in Menu */
+/* Menu Links */
+.menu-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-links li {
+  margin: 0 15px; /* Space between links */
+}
+
+.menu-links a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--dark-gray); /* Use your brand color */
+}
+
+.menu-links a:hover {
+  color: var(--primary-green); /* Hover effect color */
+}
+
+/* Social Icons Styling */
 .social-icons {
   display: flex;
   list-style: none;
@@ -105,15 +134,21 @@ a:hover {
 }
 
 .social-icons a {
-  color: var(--dark-gray); /* Use a color from your brand kit */
-  font-size: 1.5rem; /* Adjust size as needed */
+  color: var(--dark-gray); /* Default icon color */
+  font-size: 1.5rem; /* Icon size */
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: var(--primary-green); /* Change to hover color */
+  color: var(--primary-green); /* Icon hover color */
 }
+
+/* Ensure No ">>" Between Icons */
+.social-icons li:after {
+  content: none; /* Prevent default styles that might add separators */
+}
+
 
 
 .main-menu li {
