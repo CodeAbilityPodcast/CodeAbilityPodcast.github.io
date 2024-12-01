@@ -1,59 +1,43 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}" type="image/png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     {% include head-custom.html %}
-
     {% seo %}
   </head>
-
   <body>
-
     <header>
       <div class="container header-content">
         <!-- Logo -->
         <a id="a-logo" href="{{ '/' | relative_url }}">
-          <img src="{{ '/assets/images/CodeAbilitySmallLogo_Color_small.png' | relative_url }}" alt="CodeAbility Logo">
+          <img src="{{ '/assets/images/CodeAbilityExpandedLogo_Color.png' | relative_url }}" alt="CodeAbility Logo">
         </a>
 
-        <!-- Title and Description -->
-        <div id="a-title-container">
-          <a id="a-title" href="{{ '/' | relative_url }}">
-            <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          </a>
-          <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        </div>
-      </div>
-
         <!-- Navigation Menu -->
-    <nav class="main-menu">
-      <ul class="menu-links">
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-        <li><a href="{{ '/episodes/' | relative_url }}">Episodes</a></li>
-        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
-      </ul>
-      <ul class="social-icons">
-        <li><a href="https://twitter.com/CodeAbilityPod" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="https://www.instagram.com/codeabilitypodcast/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="https://www.tiktok.com/@codeabilitypodcast" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a></li>
-        <li><a href="https://www.youtube.com/channel/UC5V1sIVPVhGtmZmNPdH6EgA" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
-      </ul>
-    </nav>
-
-
-
+        <nav class="main-menu">
+          <ul class="menu-links">
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+            <li><a href="{{ '/episodes/' | relative_url }}">Episodes</a></li>
+            <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+          </ul>
+          <ul class="social-icons">
+            <li><a href="https://twitter.com/CodeAbilityPod" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/codeabilitypodcast/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.tiktok.com/@codeabilitypodcast" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UC5V1sIVPVhGtmZmNPdH6EgA" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-
-    <div class="container">
-      <section id="main_content">
+    <main>
+      <div class="container">
         {{ content }}
-      </section>
-    </div>
+      </div>
+    </main>
   </body>
 </html>
