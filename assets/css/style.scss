@@ -91,6 +91,31 @@ a:hover {
   padding: 0;
 }
 
+/* Social Icons in Menu */
+.social-icons {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 15px; /* Space between icons */
+}
+
+.social-icons li {
+  margin: 0;
+}
+
+.social-icons a {
+  color: var(--dark-gray); /* Use a color from your brand kit */
+  font-size: 1.5rem; /* Adjust size as needed */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: var(--primary-green); /* Change to hover color */
+}
+
+
 .main-menu li {
   margin: 0 15px; /* Space between menu items */
 }
