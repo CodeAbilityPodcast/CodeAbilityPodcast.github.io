@@ -3,7 +3,7 @@ layout: default
 title: Episodes
 permalink: /episodes/
 ---
-[See All Episodes on Spotify](https://creators.spotify.com/pod/show/codeability)_
+[See All Episodes on Spotify](https://open.spotify.com/show/2ecvAIOeIgWEqe2AyyMzoF)_
 
 # Season 1
 _Released December 11th, 2024_
